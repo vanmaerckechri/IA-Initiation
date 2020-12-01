@@ -1,0 +1,11 @@
+footer
+{
+	padding-top: $margin-s;
+	padding-bottom: $margin-s;
+	.container-large
+	{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+}

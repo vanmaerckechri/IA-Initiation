@@ -1,0 +1,48 @@
+.tictactoe-container
+{
+	max-width: 400px;
+	width: 100%;
+
+	.tictactoe-board
+	{
+		max-width: 100%;
+		width: 100%;
+		background-color: black;
+		.row
+		{
+			display: flex;
+			justify-content: flex-start; 
+		}
+		.cell
+		{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+			border: 1px solid black;
+			background-color: white;
+		}
+		.cell.active
+		{
+			cursor: pointer;
+		}
+		.cell.playerX
+		{
+			background-color: #e1c8f0;
+		}
+		.cell.playerO
+		{
+			background-color: #c8c8f0;
+		}
+		.cell.playerX.victoryCell
+		{
+			color: white;
+			background-color: #c83296;
+		}
+		.cell.playerO.victoryCell
+		{
+			color: white;
+			background-color: #232364;
+		}
+	}
+}

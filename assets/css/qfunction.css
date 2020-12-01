@@ -1,0 +1,177 @@
+.options-container {
+  width: 100%;
+  border: 1px solid black;
+  padding: 12px;
+  display: flex;
+  flex-wrap: wrap; }
+  .options-container .col {
+    max-width: 200px;
+    width: 100%; }
+  .options-container .buttons-container {
+    margin-top: 12px; }
+  .options-container legend {
+    padding: 6px 6px 0 6px; }
+  .options-container label {
+    margin: 6px 12px 6px 0;
+    display: flex;
+    align-items: baseline; }
+    .options-container label input {
+      margin-right: 6px; }
+  .options-container input[type="number"] {
+    border: 1px solid #22181C;
+    padding-left: 6px;
+    max-width: 64px; }
+
+fieldset.options-container:last-of-type {
+  margin-bottom: 12px; }
+
+.buttons-container {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  background-color: #22181C; }
+  .buttons-container .row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; }
+  .buttons-container .btn {
+    text-align: left; }
+
+.example-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap; }
+
+.canvas {
+  width: 100%;
+  background-color: black; }
+
+.canvasResult {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+@media screen and (max-width: 650px) {
+  .example-container {
+    flex-direction: column;
+    align-items: center; } }
+.snake-container {
+  max-width: 400px;
+  width: 100%; }
+  .snake-container .canvas-container {
+    position: relative;
+    background-color: black; }
+    .snake-container .canvas-container .canvas-grid {
+      position: relative; }
+    .snake-container .canvas-container .canvas-snake, .snake-container .canvas-container .canvas-apple {
+      position: absolute; }
+    .snake-container .canvas-container .canvas-grid, .snake-container .canvas-container .canvas-apple, .snake-container .canvas-container .canvas-snake {
+      top: 50%;
+      left: 50%;
+      transform: translate3d(-50%, -50%, 0); }
+
+.graph-legend {
+  border: 1px solid black;
+  padding: 12px;
+  justify-content: flex-start;
+  width: 100%;
+  background-color: #EDF1F4; }
+  .graph-legend ul {
+    padding-left: 0;
+    list-style: none; }
+    .graph-legend ul li {
+      margin-top: 0;
+      padding-top: 6px;
+      padding-bottom: 6px;
+      display: flex;
+      align-items: flex-start; }
+  .graph-legend .colors {
+    padding: 24px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .graph-legend .colors li {
+      width: 33%; }
+  .graph-legend .square {
+    margin-right: 6px;
+    min-width: 28px;
+    max-width: 28px;
+    min-height: 28px;
+    max-height: 28px; }
+  .graph-legend .blue {
+    background-color: blue; }
+  .graph-legend .green {
+    background-color: green; }
+  .graph-legend .black {
+    background-color: black; }
+  .graph-legend .cyan {
+    background-color: cyan; }
+  .graph-legend .grey {
+    background-color: grey; }
+  .graph-legend .red {
+    background-color: red; }
+
+.snake-container {
+  max-width: 100%; }
+  .snake-container .options-container label {
+    width: 100%; }
+  .snake-container .demo {
+    margin-bottom: 12px;
+    display: flex;
+    flex-wrap: wrap; }
+    .snake-container .demo .canvas-container {
+      width: 50%; }
+    .snake-container .demo .uiGameSpeed {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate3d(-50%, -50%, 0);
+      color: white;
+      text-shadow: black 0.1em 0.1em 0.2em;
+      pointer-events: none;
+      display: none; }
+      .snake-container .demo .uiGameSpeed.active {
+        display: block; }
+    .snake-container .demo .stateDescription {
+      width: 50%;
+      background-color: black; }
+      .snake-container .demo .stateDescription .text {
+        font-family: "Lexend Peta", sans-serif;
+        font-weight: bold; }
+  .snake-container .graph-legend .colors li {
+    width: 100%; }
+  .snake-container .graph-legend .colors:last-of-type {
+    padding-bottom: 0; }
+  .snake-container .graph-legend .states {
+    color: grey; }
+  .snake-container .graph-legend .statesValue {
+    font-weight: bold;
+    color: black; }
+  .snake-container .graph-legend .surroundingResult {
+    font-weight: bold;
+    color: green; }
+  .snake-container .graph-legend .appleDirectionResult {
+    font-weight: bold;
+    color: red; }
+  .snake-container .graph-legend .finalStateResult {
+    color: purple;
+    font-weight: bold; }
+  .snake-container .graph-legend .action_choice {
+    color: black;
+    font-weight: bold;
+    text-decoration: underline; }
+  .snake-container .graph-legend .active {
+    color: black;
+    text-decoration: underline; }
+
+@media screen and (max-width: 650px) {
+  .snake-container .demo .canvas-container, .snake-container .demo .stateDescription {
+    width: 100%; }
+  .snake-container .demo .canvas-container {
+    margin-bottom: 12px; }
+  .snake-container .graph-legend .colors li {
+    width: 100%; } }
+
+/*# sourceMappingURL=qfunction.css.map */

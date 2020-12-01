@@ -1,0 +1,49 @@
+	<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300px" height="300px">
+					<g id="layer2" width="300px" height="300px">
+						<path id="apple7" fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" d="M91.301,62.18
+							c-7.811-7.81-20.475-7.81-28.283,0c-7.812,7.81-7.812,20.474,0,28.284c6.839,6.842,17.406,7.689,25.17,2.545l105.979,105.98
+							l5.658-5.655L93.846,87.353C98.99,79.587,98.143,69.021,91.301,62.18z"/>
+						<path id="apple6" fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" d="M24.782,179.648
+							c-11.045,0.001-20,8.956-19.999,20c-0.001,11.046,8.954,20.001,20,20c9.674,0.002,17.745-6.871,19.598-15.999l149.878,0.001
+							l0.002-8l-149.879-0.001C42.528,186.52,34.458,179.648,24.782,179.648z"/>
+						<path id="apple5" fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" d="M63.332,309.814
+							c-7.81,7.811-7.81,20.475,0,28.283c7.81,7.812,20.474,7.812,28.284,0c6.842-6.84,7.688-17.406,2.544-25.171l105.981-105.979
+							l-5.655-5.658L88.505,307.27C80.739,302.125,70.174,302.973,63.332,309.814z"/>
+						<path id="apple4" fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" d="M179.891,374.694
+							c0,11.045,8.955,20,20,19.999c11.045,0.001,20-8.954,20-20c0.001-9.675-6.872-17.745-16-19.598l0.001-149.879l-8-0.002l0,149.88
+							C186.762,356.948,179.891,365.019,179.891,374.694z"/>
+						<path id="apple3" fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" d="M309.247,337.892
+							c7.811,7.811,20.474,7.811,28.283,0c7.811-7.81,7.811-20.474,0-28.284c-6.841-6.842-17.406-7.688-25.171-2.544l-105.98-105.981
+							l-5.657,5.656l105.98,105.981C301.558,320.485,302.405,331.051,309.247,337.892z"/>
+						<path id="apple2" fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" d="M374.657,220.324
+							c11.046,0,20-8.954,20-20c0.001-11.045-8.954-20-20-20c-9.675,0-17.745,6.872-19.598,16l-149.88,0v8h149.879
+							C356.912,213.453,364.982,220.325,374.657,220.324z"/>
+						<path id="apple1" fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" d="M337.909,91.619
+							c7.811-7.811,7.811-20.474,0-28.284c-7.81-7.81-20.474-7.811-28.284,0c-6.842,6.841-7.688,17.407-2.544,25.171L201.1,194.486
+							l5.657,5.657l105.98-105.98C320.503,99.308,331.068,98.46,337.909,91.619z"/>
+						<path id="apple0" fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" d="M220,25c0-11.045-8.954-20-20-20
+							c-11.045,0-20,8.955-20,20c0,9.675,6.872,17.745,16,19.598v149.879h8V44.599C213.129,42.745,220,34.675,220,25z"/>
+					</g>
+					<g id="layer1">
+						<path id="circle" fill="#FFFFFF" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" d="
+							M300.012,200.659c0,55.102-44.671,99.772-99.782,99.772c-55.101,0-99.772-44.671-99.772-99.772
+							c0-55.11,44.671-99.782,99.772-99.782C255.341,100.877,300.012,145.549,300.012,200.659z"/>
+						<polygon id="arrowRight" fill="#7CC473" stroke="#000000" stroke-width="3" stroke-miterlimit="10" points="231.793,224.838 
+							231.793,174.938 280.334,199.964 	"/>
+						<polygon id="arrowFront" fill="#7CC473" stroke="#000000" stroke-width="3" stroke-miterlimit="10" points="225.014,169.158 
+							175.113,169.158 200.14,120.617 	"/>
+						<polygon id="arrowLeft" fill="#7CC473" stroke="#000000" stroke-width="3" stroke-miterlimit="10" points="168.334,174.937 
+							168.334,224.838 119.793,199.811 	"/>
+						<text id="snake2" class="svg-text" transform="matrix(1 0 0 1 240.8418 207.79)">0</text>
+						<text id="snake1" class="svg-text" transform="matrix(1 0 0 1 192.6968 161.7007)">0</text>
+						<text id="snake0" class="svg-text" transform="matrix(1 0 0 1 146.8413 207.79)">0</text>
+						<text id="apple7" class="svg-text" transform="matrix(0.7071 -0.7071 0.7071 0.7071 77 85)">7</text>
+						<text id="apple6" class="svg-text" transform="matrix(-5.960464e-008 -1 1 -5.960464e-008 30 206)">6</text>
+						<text id="apple5" class="svg-text" transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 86 323)">5</text>
+						<text id="apple4" class="svg-text" transform="matrix(-1 0 0 -1 206 369)" font-family="'Arial-BoldMT'">4</text>
+						<text id="apple3" class="svg-text" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 323 314)">3</text>
+						<text id="apple2" class="svg-text" transform="matrix(-4.371139e-008 1 -1 -4.371139e-008 369 194)">2</text>
+						<text id="apple1" class="svg-text" transform="matrix(0.7071 0.7071 -0.7071 0.7071 316 78)">1</text>
+						<text id="apple0" class="svg-text" transform="matrix(1 0 0 1 193 32)">0</text>
+					</g>
+					</svg>

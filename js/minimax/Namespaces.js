@@ -1,0 +1,2 @@
+CVM.MINIMAX = {};
+CVM.TICTACTOE = {};

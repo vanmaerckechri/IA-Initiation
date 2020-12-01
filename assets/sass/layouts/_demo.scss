@@ -1,0 +1,27 @@
+.example-container
+{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.canvas
+{
+	width: 100%;	
+	background-color: black;
+}
+.canvasResult
+{
+	width: 100%;	
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+@media screen and (max-width: $maxWidthResponsive)
+{
+	.example-container
+	{
+		flex-direction: column;
+		align-items: center;
+	}
+}

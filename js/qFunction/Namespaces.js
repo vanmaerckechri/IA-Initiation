@@ -1,0 +1,2 @@
+CVM.QFUNCTION = {};
+CVM.SNAKE = {};

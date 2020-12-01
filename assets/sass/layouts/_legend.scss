@@ -1,0 +1,64 @@
+.graph-legend
+{
+	border: 1px solid black;
+	padding: $margin-s;
+	justify-content: flex-start;
+	width: 100%;
+	background-color: $grey05;
+	ul
+	{
+		padding-left: 0;
+		list-style: none;
+		li
+		{
+			margin-top: 0;
+			padding-top: $margin-xs;
+			padding-bottom: $margin-xs;
+			display: flex;
+			align-items: flex-start;
+		}
+	}
+	.colors
+	{
+		padding: $margin-m 0;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		li
+		{
+			width: 33%;
+		}
+	}
+	.square
+	{
+		margin-right: $margin-xs;
+		min-width: 28px;
+		max-width: 28px;
+		min-height: 28px;
+		max-height: 28px;
+	}
+	.blue
+	{
+		background-color: blue;
+	}
+	.green
+	{
+		background-color: green;
+	}
+	.black
+	{
+		background-color: black;
+	}
+	.cyan
+	{
+		background-color: cyan;
+	}
+	.grey
+	{
+		background-color: grey;
+	}
+	.red
+	{
+		background-color: red;
+	}
+}

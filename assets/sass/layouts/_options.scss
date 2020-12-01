@@ -1,0 +1,44 @@
+.options-container
+{
+	width: 100%;
+	border: 1px solid black;
+	padding: $margin-s;
+	display: flex;
+	flex-wrap: wrap;
+	.col
+	{
+		max-width: 200px;
+		width: 100%;
+	}
+	.buttons-container
+	{
+		margin-top: $margin-s;
+	}
+	legend
+	{
+		padding: $margin-xs $margin-xs 0 $margin-xs;
+	}
+	label
+	{
+		margin: $margin-xs $margin-s $margin-xs 0;
+		display: flex;
+		align-items: baseline;
+		input
+		{
+			margin-right: $margin-xs;
+		}
+	}
+	input[type="number"]
+	{
+		border: 1px solid $color-dark01;
+		padding-left: $margin-xs;
+		max-width: $margin-xxl;
+	}
+}
+fieldset.options-container
+{
+	&:last-of-type
+	{
+		margin-bottom: $margin-s;
+	}
+}

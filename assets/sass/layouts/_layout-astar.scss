@@ -1,0 +1,88 @@
+.graph-container
+{
+	display: flex;
+	flex-wrap: wrap;
+	.buttons-container
+	{
+		.btn
+		{
+			max-width: 180px;
+			padding-left: $margin-s;
+			padding-right: $margin-s;
+		}
+	}
+}
+.canvas-container
+{
+	margin-bottom: $margin-s;
+	position: relative;
+	max-width: 700px;
+	width: 100%;
+	.graph-canvas, .graph-colors-canvas, .graph-weights-canvas
+	{
+		width: 100%;
+	}
+	.graph-colors-canvas, .graph-weights-canvas
+	{
+		position: absolute;
+		top: 0;
+		left: 0;
+		pointer-events: none;
+	}
+}
+.graph-legend
+{
+	.g, .h, .f
+	{
+		border: 3px solid black;
+		position: relative;
+		font-weight: bold;
+		background-color: white;
+		&::before
+		{
+			position: absolute;
+		}
+	}
+	.g
+	{
+		&::before
+		{
+			content: 'g';
+			top: -6px;
+			left: 1px;
+		}
+	}
+	.h
+	{
+		&::before
+		{
+			content: 'h';
+			top: -4px;
+			right: 1px;
+		}
+	}
+	.f
+	{
+		&::before
+		{
+			content: 'f';
+			top: 2px;
+			left: 50%;
+			transform: translate3d(-50%, 0, 0);
+		}
+	}
+}
+
+@media screen and (max-width: 590px)
+{
+	.graph-legend
+	{
+		.colors
+		{
+			li
+			{
+				width: 50%;
+			}
+		}
+	}
+}

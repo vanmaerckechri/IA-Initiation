@@ -1,0 +1,26 @@
+header
+{
+	padding-top: $margin-s;
+	padding-bottom: $margin-s;
+}
+.mainLogo-container
+{
+	display: flex;
+	align-items: center;
+	img
+	{
+		width: 3rem;
+		height: 3rem;
+	}
+	h1
+	{
+		margin-left: 0.3rem;
+		letter-spacing: -0.1rem;
+	}
+	span
+	{
+		margin-left: 0.2rem;
+		font-size: 0.7rem;
+		letter-spacing: -0.08rem;
+	}
+}

@@ -1,0 +1,91 @@
+.buttons-container {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  background-color: #22181C; }
+  .buttons-container .row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; }
+  .buttons-container .btn {
+    text-align: left; }
+
+.example-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap; }
+
+.canvas {
+  width: 100%;
+  background-color: black; }
+
+.canvasResult {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+@media screen and (max-width: 650px) {
+  .example-container {
+    flex-direction: column;
+    align-items: center; } }
+/* Graph */
+.graph-container {
+  flex: 1;
+  min-width: 300px;
+  position: relative; }
+
+.nodeName {
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  transform: translate3d(-50%, -50%, 0); }
+
+.pathDist {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  transform: translate3d(-50%, -50%, 0); }
+
+/* Board */
+.board-container {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  justify-content: flex-end; }
+
+.board-nodeName, .board-step {
+  color: white;
+  background-color: black; }
+
+.board-nodeName, .board-cell, .board-step {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.board-cell {
+  border: 1px solid black;
+  background-color: white;
+  transition: background-color 0.2s; }
+
+.board-cellClose {
+  background-color: grey; }
+
+@media screen and (max-width: 650px) {
+  .graph-container, .board-container {
+    background-color: black; }
+
+  .graph-container {
+    order: 1; }
+
+  .buttons-container {
+    border-top: 1px solid #FBED00;
+    border-bottom: 1px solid #FBED00;
+    order: 2; }
+
+  .board-container {
+    order: 3; } }
+
+/*# sourceMappingURL=primdijkstra.css.map */

@@ -1,0 +1,18 @@
+.buttons-container
+{
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	background-color: #22181C;
+	.row
+	{
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.btn
+	{
+		text-align: left;
+	}
+}

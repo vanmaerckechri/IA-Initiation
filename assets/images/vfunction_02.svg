@@ -1,0 +1,19 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="400px"
+	 height="400px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
+	<rect x="0" y="0" fill="#A4A3A3" width="400" height="400"/>
+	<rect x="133.784" y="133.685" fill="#DFC8E1" width="132" height="132"/>
+	<polygon points="239.433,232.939 205.854,199.361 239.037,166.178 232.674,159.814 199.491,192.998 166.601,160.107 
+		160.236,166.472 193.126,199.362 159.842,232.646 166.206,239.01 199.49,205.726 233.068,239.304 	"/>
+	<rect fill="#DFC8E1" width="132" height="132"/>
+	<polygon points="105.649,99.255 72.071,65.677 105.254,32.494 98.89,26.13 65.707,59.313 32.817,26.423 26.453,32.787 
+		59.343,65.677 26.058,98.962 32.422,105.326 65.707,72.041 99.285,105.619 	"/>
+	<rect x="133.333" fill="#C9C7E4" width="132" height="132"/>
+	<path d="M200,25.5c-22.368,0-40.5,18.132-40.5,40.5s18.132,40.5,40.5,40.5c22.367,0,40.5-18.132,40.5-40.5S222.367,25.5,200,25.5z
+		 M200.25,98c-17.947,0-32.5-14.552-32.5-32.5c0-17.948,14.553-32.5,32.5-32.5c17.945,0,32.5,14.552,32.5,32.5
+		C232.75,83.448,218.195,98,200.25,98z"/>
+	<line fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" x1="0" y1="133" x2="400" y2="133"/>
+	<line fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" x1="0" y1="266" x2="400" y2="266"/>
+	<line fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" x1="133" y1="0" x2="133" y2="400"/>
+	<line fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" x1="266" y1="0" x2="266" y2="400"/>
+	<rect x="0" y="0" fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" width="400" height="400"/>
+</svg>

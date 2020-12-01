@@ -1,0 +1,39 @@
+.backToTop-container
+{
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	width: 100vw;
+
+	position: fixed;
+	bottom: 0;
+	left: 50%;
+
+	pointer-events: none;
+	transition: opacity 0.3s;
+	transform: translate3d(-50%, 0, 0);
+	.backToTop-btn
+	{
+		margin-bottom: 64px;
+		border-radius: 50%;
+
+		height: 48px;
+		width: 48px;
+		
+		pointer-events: auto;
+		&::after
+		{
+			content: "\25b2";
+			font-size: 24px;
+			font-weight: bold;
+		}
+	}
+}
+.backToTop-container.disable
+{
+	opacity: 0;
+	.backToTop-btn
+	{
+		pointer-events: none;
+	}
+}

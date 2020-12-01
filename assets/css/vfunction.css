@@ -1,0 +1,90 @@
+.options-container {
+  width: 100%;
+  border: 1px solid black;
+  padding: 12px;
+  display: flex;
+  flex-wrap: wrap; }
+  .options-container .col {
+    max-width: 200px;
+    width: 100%; }
+  .options-container .buttons-container {
+    margin-top: 12px; }
+  .options-container legend {
+    padding: 6px 6px 0 6px; }
+  .options-container label {
+    margin: 6px 12px 6px 0;
+    display: flex;
+    align-items: baseline; }
+    .options-container label input {
+      margin-right: 6px; }
+  .options-container input[type="number"] {
+    border: 1px solid #22181C;
+    padding-left: 6px;
+    max-width: 64px; }
+
+fieldset.options-container:last-of-type {
+  margin-bottom: 12px; }
+
+.buttons-container {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  background-color: #22181C; }
+  .buttons-container .row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; }
+  .buttons-container .btn {
+    text-align: left; }
+
+.example-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap; }
+
+.canvas {
+  width: 100%;
+  background-color: black; }
+
+.canvasResult {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+@media screen and (max-width: 650px) {
+  .example-container {
+    flex-direction: column;
+    align-items: center; } }
+.tictactoe-container {
+  max-width: 400px;
+  width: 100%; }
+  .tictactoe-container .tictactoe-board {
+    max-width: 100%;
+    width: 100%;
+    background-color: black; }
+    .tictactoe-container .tictactoe-board .row {
+      display: flex;
+      justify-content: flex-start; }
+    .tictactoe-container .tictactoe-board .cell {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      border: 1px solid black;
+      background-color: white; }
+    .tictactoe-container .tictactoe-board .cell.active {
+      cursor: pointer; }
+    .tictactoe-container .tictactoe-board .cell.playerX {
+      background-color: #e1c8f0; }
+    .tictactoe-container .tictactoe-board .cell.playerO {
+      background-color: #c8c8f0; }
+    .tictactoe-container .tictactoe-board .cell.playerX.victoryCell {
+      color: white;
+      background-color: #c83296; }
+    .tictactoe-container .tictactoe-board .cell.playerO.victoryCell {
+      color: white;
+      background-color: #232364; }
+
+/*# sourceMappingURL=vfunction.css.map */

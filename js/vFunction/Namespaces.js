@@ -1,0 +1,2 @@
+CVM.VFUNCTION = {};
+CVM.TICTACTOE = {};

@@ -1,0 +1,42 @@
+// SIZES
+
+$maxWidth-l: 1200px;
+$maxWidth-s: 748px;
+$maxWidthResponsive: 650px;
+
+// MARGINS
+
+$margin-xxl: 64px;
+$margin-xl: 48px;
+$margin-l: 36px;
+$margin-m: 24px;
+$margin-s: 12px;
+$margin-xs: 6px;
+
+// FONTS
+
+$fontFamily-title: 'Lexend Peta', sans-serif;
+$fontFamily-main: Montserrat, Helvetica, Arial, sans-Serif;
+$fontFamily-code: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+
+// COLORS
+
+	// Grey
+	$grey01: #22181C; // darkest
+	$grey02: #2a3036;
+	$grey03: #B2A3B5;
+	$grey04: #E8EAF0;
+	$grey05: #EDF1F4; 
+	$grey06: #FFFFFF; // lightest
+
+	// Yellow
+	$yellow01: #FBED00;
+
+	// Green
+	$green01: #77966D;
+
+	// Distribution
+	$color-warm01: $yellow01;
+	$color-cool01: $green01;
+	$color-dark01: $grey01;
+	$color-light01: $grey06;

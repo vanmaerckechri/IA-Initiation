@@ -1,0 +1,24 @@
+.snake-container
+{
+	max-width: 400px;
+	width: 100%;
+	.canvas-container
+	{
+		position: relative;
+		background-color: black;
+		.canvas-grid
+		{
+			position: relative;
+		}
+		.canvas-snake, .canvas-apple
+		{
+			position: absolute;
+		}
+		.canvas-grid, .canvas-apple, .canvas-snake
+		{
+			top: 50%;
+			left: 50%;
+			transform: translate3d(-50%, -50%, 0);
+		}
+	}
+}

@@ -1,0 +1,24 @@
+.main
+{
+	padding: $margin-xl 0 $margin-xxl 0;
+	flex-grow: 1;
+	h2
+	{
+		width: 100%;
+		margin-bottom: $margin-m;
+	}
+	p
+	{
+		margin-bottom: $margin-s;
+		line-height: 28px;
+	}
+	li
+	{
+		line-height: $margin-m;		
+	}
+	img
+	{
+		margin-bottom: $margin-s;
+		max-width: 100%;
+	}
+}

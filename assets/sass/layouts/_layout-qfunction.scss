@@ -1,0 +1,123 @@
+.snake-container
+{
+	max-width: 100%;
+	.options-container
+	{
+		label
+		{
+			width: 100%;
+		}
+	}
+	.demo
+	{
+		margin-bottom: $margin-s;
+		display: flex;
+		flex-wrap: wrap;
+		.canvas-container
+		{
+			width: 50%;
+		}
+		.uiGameSpeed
+		{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate3d(-50%, -50%, 0);
+			color: white;
+			text-shadow: black 0.1em 0.1em 0.2em;
+			pointer-events: none;
+			display: none;
+			&.active
+			{
+				display: block;
+			}
+		}
+		.stateDescription
+		{
+			width: 50%;
+			background-color: black;
+			.text
+			{
+				font-family: $fontFamily-title;
+				font-weight: bold;
+			}
+		}
+	}
+	.graph-legend
+	{
+		.colors
+		{
+			li
+			{
+				width: 100%;
+			}
+			&:last-of-type
+			{
+				padding-bottom: 0;
+			}
+		}
+		.states
+		{
+			color: grey;
+		}
+		.statesValue
+		{
+			font-weight: bold;
+			color: black;
+		}
+		.surroundingResult
+		{
+			font-weight: bold;
+			color: green;
+		}
+		.appleDirectionResult
+		{
+			font-weight: bold;
+			color: red;
+		}
+		.finalStateResult
+		{
+			color: purple;
+			font-weight: bold;
+		}
+		.action_choice
+		{
+			color: black;
+			font-weight: bold;
+			text-decoration: underline;
+		}
+		.active
+		{
+			color: black;
+			text-decoration: underline;
+		}
+	}
+}
+
+@media screen and (max-width: $maxWidthResponsive)
+{
+	.snake-container
+	{
+		.demo
+		{
+			.canvas-container, .stateDescription
+			{
+				width: 100%;
+			}
+			.canvas-container
+			{
+				margin-bottom: $margin-s;
+			}
+		}
+		.graph-legend
+		{
+			.colors
+			{
+				li
+				{
+					width: 100%;
+				}
+			}
+		}
+	}
+}
