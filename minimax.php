@@ -5,7 +5,7 @@ $meta_description = "Objectif et fonctionnement de l'algorithme Minimax.";
 $og_page = "prim.php";
 
 ob_start();?>
-	<link rel="stylesheet" type="text/css" href="assets/css/minimax.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style_minimax.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/prism.css">
 <?php $content_style = ob_get_clean();
 

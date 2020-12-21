@@ -55,11 +55,11 @@
 
 	CVM.TOOLS.CanvasManager.draw_text = function(ctx, x, y, content, optional)
 	{
-		var fontFam = !optional.fontFam ? "Arial" : optional.fontFam;
-		var fontSize = !optional.fontSize ? 18 : optional.fontSize;
-		var fontWeight = !optional.fontWeight ? "normal" : optional.fontWeight;
-		var color = !optional.color ? "black" : optional.color;
-		var align = !optional.align ? "left" : optional.align;
+		var fontFam = !optional || !optional.fontFam ? "Arial" : optional.fontFam;
+		var fontSize = !optional || !optional.fontSize ? 18 : optional.fontSize;
+		var fontWeight = !optional || !optional.fontWeight ? "normal" : optional.fontWeight;
+		var color = !optional || !optional.color ? "black" : optional.color;
+		var align = !optional || !optional.align ? "left" : optional.align;
 
 		ctx.font = fontWeight + " " + fontSize + "px " + fontFam;
 		ctx.fillStyle = color;

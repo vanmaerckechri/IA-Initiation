@@ -5,7 +5,7 @@ $meta_description = "Objectif et fonctionnement de l'algorithme de Dijkstra.";
 $og_page = "dijkstra.php";
 
 ob_start();?>
-	<link rel="stylesheet" type="text/css" href="assets/css/primdijkstra.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style_primdijkstra.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/prism.css">
 <?php $content_style = ob_get_clean();
 

@@ -5,7 +5,7 @@ $meta_description = "Objectif et fonctionnement de la fonction V.";
 $og_page = "vfunction.php";
 
 ob_start();?>
-	<link rel="stylesheet" type="text/css" href="assets/css/vfunction.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style_vfunction.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/prism.css">
 <?php $content_style = ob_get_clean();
 

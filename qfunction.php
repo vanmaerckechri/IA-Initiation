@@ -5,7 +5,7 @@ $meta_description = "Objectif et fonctionnement du Q-learning.";
 $og_page = "qfunction.php";
 
 ob_start();?>
-	<link rel="stylesheet" type="text/css" href="assets/css/qfunction.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style_qfunction.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/prism.css">
 <?php $content_style = ob_get_clean();
 
@@ -100,7 +100,7 @@ ob_start();?>
 					</g>
 					</svg>
 				</div>
-				<div class="graph-legend">
+				<div id="graph-legend" class="graph-legend">
 					<h3>États</h3>
 					<ul class="colors">
 						<li>

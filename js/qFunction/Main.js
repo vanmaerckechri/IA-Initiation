@@ -126,7 +126,7 @@
 		var progress = document.getElementById("progress");
 
 	    this.ai.update_options(this.exploring_rate, this.learning_rate, this.discount_factor);
-		this.description.reset(this.game.snake.orientation, false);
+		this.description.reset(this.game.snake.orientation);
 
 		this.workerLoop = new Worker('js/workers/Loop.js');
 		this.workerLoop.postMessage([0, epoch_size]);
@@ -174,7 +174,7 @@
 		this.ai.update_options(0, this.learning_rate, this.discount_factor);
 		this.lastState = this.game.restart(this.speed, true);
 		this.game.board.draw_items(this.game.apple, this.game.snake);
-		this.description.reset(this.game.snake.orientation, true);
+		this.description.reset(this.game.snake.orientation);
 
 		this.step_test();
 	};

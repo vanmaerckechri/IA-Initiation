@@ -6,14 +6,81 @@
 	{
 		this.snakeOrientation;
 		this.speed;
-		this.is_on;
+		this.graphLegend_init;
+
+		this.init();
 	};
 
-	CVM.QFUNCTION.Description.prototype.reset = function(orientation, is_on)
+	CVM.QFUNCTION.Description.prototype.init = function()
+	{
+		// Enregistrer les informations par défaut présentes dans la légende.
+		this.graphLegend_init = {};
+		var ids_content = document.querySelectorAll("#graph-legend [id]");
+		for (var i = ids_content.length - 1; i >= 0; i--)
+		{
+			if (ids_content[i].textContent !== "")
+			{
+				this.graphLegend_init[ids_content[i].id] = ids_content[i].textContent;
+			}
+		}
+	};
+
+	// RESET
+
+	CVM.QFUNCTION.Description.prototype.reset = function(orientation)
 	{
 		this.snakeOrientation = orientation;
-		this.is_on = is_on;
+
+		this.reset_snakeOrientation();
+		this.reset_snakeSurrounding();
+		this.reset_apple();
+		this.reset_legend();
 	};
+
+	CVM.QFUNCTION.Description.prototype.reset_snakeOrientation = function()
+	{
+		var layer = document.getElementById("layer1");
+
+		if ((window.navigator.userAgent).indexOf('Trident/') === -1)
+		{
+			layer.style.transition = "";
+			layer.style.transformOrigin = "";
+			layer.style.transform = "";
+		}
+		else
+		{
+			// ie <= 11
+			layer.removeAttribute("transform");
+		}
+	;}
+
+	CVM.QFUNCTION.Description.prototype.reset_snakeSurrounding = function()
+	{
+		for (var i = 2; i >= 0; i--)
+		{
+			this.update_content("description_surrounding" + i, 0);
+			this.update_content("surrounding" + i, 0);
+		}
+	;}
+
+	CVM.QFUNCTION.Description.prototype.reset_apple = function()
+	{
+		for (var i = 7; i >= 0; i--)
+		{
+			var apple = document.getElementById("apple" + i);
+			apple.style.fill = "white";
+		}
+	;}
+
+	CVM.QFUNCTION.Description.prototype.reset_legend = function()
+	{
+		var ids_content = document.querySelectorAll("#graph-legend [id]");
+		for (var id in this.graphLegend_init)
+		{
+			this.update_content(id, this.graphLegend_init[id]);
+			document.getElementById(id).classList.remove("active");
+		}
+	;}
 
 	CVM.QFUNCTION.Description.prototype.resize = function()
 	{
@@ -22,12 +89,10 @@
 		container.style.height = height + "px";
 	};
 
+	// UPDATE
+
 	CVM.QFUNCTION.Description.prototype.update = function(stateLastDatas, speed, qTable, action)
 	{
-		if (this.is_on != true)
-		{
-			return;
-		}
 		this.speed = speed;
 		this.update_snakeOrientation(action);
 		var surroundingState = this.update_snakeSurrounding(stateLastDatas.surrounding);
