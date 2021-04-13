@@ -2,7 +2,7 @@
 
 $content_title = "La Fonction V - Apprentissage par Renforcement - IA Initiation";
 $meta_description = "Objectif et fonctionnement de la fonction V.";
-$og_page = "vfunction.php";
+$og_page = "vfunction";
 
 ob_start();?>
 	<link rel="stylesheet" type="text/css" href="assets/css/style_vfunction.css">

@@ -45,7 +45,6 @@
 		{
 			output.push([coordinates[p].x, coordinates[p].y]);
 		}
-		console.log(output)
 		return output;
 	};
 

@@ -2,7 +2,7 @@
 
 $content_title = "Algorithme A* - IA Initiation";
 $meta_description = "Objectif et fonctionnement de l'algorithme A*.";
-$og_page = "astar.php";
+$og_page = "astar";
 
 ob_start();?>
 	<link rel="stylesheet" type="text/css" href="assets/css/style_astar.css">

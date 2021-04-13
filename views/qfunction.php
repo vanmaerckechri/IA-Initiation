@@ -2,7 +2,7 @@
 
 $content_title = "Q-learning - Apprentissage par Renforcement - IA Initiation";
 $meta_description = "Objectif et fonctionnement du Q-learning.";
-$og_page = "qfunction.php";
+$og_page = "qfunction";
 
 ob_start();?>
 	<link rel="stylesheet" type="text/css" href="assets/css/style_qfunction.css">

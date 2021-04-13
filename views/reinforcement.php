@@ -2,7 +2,7 @@
 
 $content_title = "Introduction - Apprentissage par Renforcement - IA Initiation";
 $meta_description = "Objectif et fonctionnement de l'apprentissage par renforcement.";
-$og_page = "reinforcement.php";
+$og_page = "reinforcement";
 
 ob_start();?>
 	<h1>IA<span>INIT (Apprentissage par Renforcement)</span></h1>
@@ -42,7 +42,7 @@ ob_start();?>
 	<section>
 		<div class="container-small">
 			<h2>L'Apprentissage</h2>
-			<p>L'apprentissage est appelé à divers moments de l'entrainement en fonction du contexte et de son algorithme (<a href="vfunction.php">la fonction V</a>, <a href="qfunction.php">la fonction Q</a>, ...). C'est à ce moment là que les espérances de gain sont mises à jour en fonction des récompenses obtenues suite aux décisions prises par l'agent et aux règles du système.</p>
+			<p>L'apprentissage est appelé à divers moments de l'entrainement en fonction du contexte et de son algorithme (<a href="vfunction">la fonction V</a>, <a href="qfunction">la fonction Q</a>, ...). C'est à ce moment là que les espérances de gain sont mises à jour en fonction des récompenses obtenues suite aux décisions prises par l'agent et aux règles du système.</p>
 		</div>
 	</section>
 <?php $content_main = ob_get_clean();

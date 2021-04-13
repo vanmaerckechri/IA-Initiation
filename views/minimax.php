@@ -2,7 +2,7 @@
 
 $content_title = "Algorithme Minimax - IA Initiation";
 $meta_description = "Objectif et fonctionnement de l'algorithme Minimax.";
-$og_page = "prim.php";
+$og_page = "minimax";
 
 ob_start();?>
 	<link rel="stylesheet" type="text/css" href="assets/css/style_minimax.css">
